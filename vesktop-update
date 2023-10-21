@@ -23,7 +23,7 @@ latest_tag = get_latest_tag("Vencord", "Vesktop")
 discordUrl = f"https://github.com/Vencord/Vesktop/releases/download/{latest_tag}/VencordDesktop-{latest_tag.replace('v','')}.tar.gz"
 downloadPath = "/tmp/discord.tar.gz"
 extractPath = "/tmp/discord-update"
-discordPath = "/home/mrmoder/Desktop/test/"
+discordPath = "/opt/Vesktop/"
 
 print(discordUrl)
 
